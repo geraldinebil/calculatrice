@@ -1,9 +1,15 @@
+body{
+   margin-left: 700px;
+   margin-top: 300px;
+}
+
 .calculette{
     position: absolute;
-    background-color: rgb(0, 38, 254);
+    background-color: rgb(3, 3, 3);
     width: 300px;
     height: 350px;
     border-radius: 10px;
+    color: #000;
 }
 
 #crea{
@@ -12,16 +18,17 @@
     background-color: rgb(255, 254, 254);
     margin: 8px;
     border-radius: 10px;
+    color: #000;
     
 }
 
 .calculette button{
     height:54px;
     width: 72px;
-    background-color: rgb(110, 215, 254);
+    background-color: rgb(186, 224, 254);
     margin: 0px;
     border-radius: 10px;
-    color: #ffffff;
+    color: #000000;
     font-size: 20px;
 }
 
@@ -29,3 +36,30 @@
     width: 299px;
 }
 
+#clear{
+    background-color: rgb(255, 44, 44);
+}
+
+#plus{
+    background-color: #fcff5a;
+}
+
+#moins{
+    background-color: #fcff5a;
+}
+
+#fois{
+    background-color: #fcff5a;
+}
+
+#division{
+    background-color: #fcff5a;
+}
+
+#egal{
+    background-color: white;
+}
+
+#suppression{
+    background-color: #fcff5a;
+}
