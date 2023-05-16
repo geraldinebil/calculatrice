@@ -14,7 +14,9 @@ function clc(){
     crea.innerHTML= '';
 }
 
-
+function suppression(){
+    crea.innerHTML='';
+}
   
 
 
